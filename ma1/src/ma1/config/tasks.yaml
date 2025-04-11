@@ -1,0 +1,5 @@
+research_task:
+  description: >
+    Generate a list of 5 interesting ideas for an article, then write one captivating paragraph for each idea that showcases the potential of a full article on this topic. Return the list of ideas with their paragraphs and your notes.
+  expected_output: >
+    5 bullet points, each with a paragraph and accompanying notes.
