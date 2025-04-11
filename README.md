@@ -10,7 +10,7 @@ Here are some basic implementation examples of a multi-agent LLM system based on
 ### Run
 
 Copy .env_example and rename in .env .
-Add your API_KEY.
+Add your API_KEY. The examples are using the mistral.ai API : https://console.mistral.ai/home
 
 
 ```
