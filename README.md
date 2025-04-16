@@ -42,3 +42,10 @@ Launch chromadb docker-compose :
 cd ma4
 docker compose -f chromadb/docker-compose.yml up
 ```
+
+You can delete memory with the commands:
+
+```
+docker compose -f mysql/docker-compose.yml down -v
+docker compose -f chromadb/docker-compose.yml down -v
+```
