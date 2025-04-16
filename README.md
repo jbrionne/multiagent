@@ -6,7 +6,8 @@ Here are some basic implementation examples of a multi-agent LLM system based on
 - ma1: basic example with manager agent
 - ma2: basic example with manager agent and specific LLM
 - ma3: basic example with tools
-- ma4: basic example with memory and knowledge (see also 'local memory' chapter with chromadb and mysql)
+- ma4: basic example with memory and knowledge with embedded mysql and chromadb . By default storage is in '~/.local/share/<application_name>/' for linux
+- ma5: basic example with memory and knowledge with external storage (see also 'local memory' chapter with chromadb and mysql)
 
 ### Run
 

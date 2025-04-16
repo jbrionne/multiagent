@@ -59,7 +59,7 @@ class ChromaRAGStorage():
         self._set_embedder_config()
         print(f"in chroma initializing client: HttpClient")
         try:
-            chroma_client = chromadb.HttpClient(host=self.host, port=self.port, settings=Settings(allow_reset=self.allow_reset))
+            chroma_client = chromadb.HttpClient(host=self.host, port=self.port, settings=Settings(anonymized_telemetry=False, allow_reset=self.allow_reset))
         except Exception as e:
             raise Exception(f"An error occurred while trying to connect to Chromadb Instance at {self.host} : {self.port}: {e}")
 
