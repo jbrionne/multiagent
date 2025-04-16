@@ -35,7 +35,7 @@ entity_memory = EntityMemory(
 )
 
 # Create a knowledge source
-content = "Users name is John. He is 30 years old and lives in San Francisco."
+content = "User name is Jérôme. He is 40 years old and lives in Caen."
 string_source = StringKnowledgeSource(
     content=content,
     chunk_size=4000,      # Maximum size of each chunk (default: 4000)

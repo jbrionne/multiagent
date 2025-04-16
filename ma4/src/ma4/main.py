@@ -30,7 +30,7 @@ def run():
     """
     Run the crew.
     """
-    datasets = {"question": "What city does John live in and how old is he?"}
+    datasets = {"question": "What city does user live in and how old is he?"}
 
     try:
         # Execute the crew
